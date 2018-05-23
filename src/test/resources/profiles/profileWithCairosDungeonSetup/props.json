@@ -1,0 +1,50 @@
+{
+  "id": "profileWithCairosDungeonSetup",
+  "name": "profileWithCairosDungeonSetup",
+  "refillTimes": 10,
+  "randomClick": false,
+  "sellAllRunes": false,
+  "runLogging": true,
+  "pickAllRunes": true,
+  "pickLegendRunes": false,
+  "pickHeroRunes": false,
+  "pickSixStarRunes": false,
+  "pickFiveStarRunes": false,
+  "pickSpdPercentGrind": false,
+  "confirmNetworkDelay": {
+    "x": 791,
+    "y": 717
+  },
+  "resendBattleInfo": {
+    "x": 793,
+    "y": 654
+  },
+  "sellRuneLocation": {
+    "x": 800,
+    "y": 872
+  },
+  "getRuneLocation": {
+    "x": 1125,
+    "y": 872
+  },
+  "getRewardLocation": {
+    "x": 962,
+    "y": 901
+  },
+  "replayBattle": {
+    "x": 617,
+    "y": 587
+  },
+  "startBattle": {
+    "x": 1626,
+    "y": 760
+  },
+  "sellRuneConfirmation": {
+    "x": 795,
+    "y": 653
+  },
+  "reviveNo": {
+    "x": 1240,
+    "y": 700
+  }
+}

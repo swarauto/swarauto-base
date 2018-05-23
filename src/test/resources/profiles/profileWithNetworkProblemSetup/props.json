@@ -1,0 +1,22 @@
+{
+  "id": "profileWithNetworkProblemSetup",
+  "name": "profileWithNetworkProblemSetup",
+  "refillTimes": 10,
+  "randomClick": false,
+  "sellAllRunes": false,
+  "runLogging": true,
+  "pickAllRunes": true,
+  "pickLegendRunes": false,
+  "pickHeroRunes": false,
+  "pickSixStarRunes": false,
+  "pickFiveStarRunes": false,
+  "pickSpdPercentGrind": false,
+  "confirmNetworkDelay": {
+    "x": 791,
+    "y": 717
+  },
+  "resendBattleInfo": {
+    "x": 793,
+    "y": 654
+  }
+}

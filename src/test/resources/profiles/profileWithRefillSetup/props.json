@@ -1,0 +1,38 @@
+{
+  "id": "profileWithRefillSetup",
+  "name": "profileWithRefillSetup",
+  "refillTimes": 10,
+  "randomClick": false,
+  "sellAllRunes": false,
+  "runLogging": true,
+  "pickAllRunes": true,
+  "pickLegendRunes": false,
+  "pickHeroRunes": false,
+  "pickSixStarRunes": false,
+  "pickFiveStarRunes": false,
+  "pickSpdPercentGrind": false,
+  "rechargeEnergyYes": {
+    "x": 792,
+    "y": 656
+  },
+  "rechargeEnergyNo": {
+    "x": 1127,
+    "y": 655
+  },
+  "rechargeEnergy": {
+    "x": 556,
+    "y": 593
+  },
+  "confirmRechargeEnergy": {
+    "x": 800,
+    "y": 664
+  },
+  "ackRechargeEnergyOk": {
+    "x": 969,
+    "y": 654
+  },
+  "closeRechargeEnergy": {
+    "x": 957,
+    "y": 927
+  }
+}
