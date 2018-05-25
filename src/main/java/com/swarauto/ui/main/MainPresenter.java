@@ -26,6 +26,7 @@ public class MainPresenter implements AutoSession.Listener {
     protected MainView view;
     protected MainModel model;
     protected AutoSession autoSession;
+    protected AutoSession.Report lastAutoSessionReport;
     protected ProfileManager profileManager;
     protected Settings settings;
 
@@ -223,6 +224,7 @@ public class MainPresenter implements AutoSession.Listener {
     public void onSessionStopped() {
         view.renderMessage("Stopped");
 
+        lastAutoSessionReport = autoSession.getReport();
         autoSession = null;
         view.renderUIForSessionState(AutoSession.State.INIT);
     }
@@ -285,7 +287,7 @@ public class MainPresenter implements AutoSession.Listener {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                view.showInfoDialog(autoSession != null ? autoSession.getReport() : null);
+                view.showInfoDialog(autoSession == null ? lastAutoSessionReport : autoSession.getReport());
             }
         }).start();
     }
